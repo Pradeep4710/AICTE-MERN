@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-item {
+  background-color: rgba(0, 255, 255, 0.656);
+  margin-left: 10px;        
+  border-radius: 7px; 
+}
+
+.nav-link.hover-btn:hover {
+  background-color: #4f98e7;  
+  color: white;             
+  border-radius: 7px;         
+}
+
+.nav-item button.hover-btn:hover {
+  background-color: #4f98e7;
+  color: white;
+  border-radius: 7px;
+}
+
+footer {
+  margin-top: auto;
+}
